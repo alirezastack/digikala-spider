@@ -1,0 +1,24 @@
+{
+    "mongo": {
+        "host": "127.0.0.1",
+        "port": 27017,
+	"username": "YOUR_USERNAME",
+	"password": "YOUR_PASSWORD",
+	"authentication_source": "admin"
+    },
+    "base_url": "https://seller.digikala.com",
+    "bot_credentials": {
+        "telegram": {
+            "token": "TELEGRAM_BOT_TOKEN",
+            "chat_id": "-TELEGRAM_CHANNEL_ID"
+        }
+    },
+    "credential": {
+        "login[email]": "SELLER ACCOUNT USERNAME",
+        "login[password]": "SELLER ACCOUNT PASSWORD"
+    },
+    "log": {
+        "level": "DEBUG",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    }
+}

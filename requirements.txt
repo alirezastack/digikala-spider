@@ -1,0 +1,7 @@
+requests
+pytest
+coverage
+mongoengine
+Unidecode
+beautifulsoup4
+python-telegram-bot
